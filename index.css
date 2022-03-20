@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka');
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+	color: white;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	background: black;
+}
+
+
+nav{
+	padding: 1pc 3pc 1pc 3pc;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav h1{
+	color: #ed0020;
+}
+
+.nav-left{
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.div-logo{
+	width: 10pc;
+	font-size: 15pt;
+}
+
+.div-navi{
+	width: 80%;
+	display: flex;
+	align-items: center;
+	font-size: 11pt;
+}
+
+.div-navi ul{
+	display: flex;
+	justify-content: center;
+}
+
+.div-navi ul li{
+	margin-left: 1pc;
+}
+
+.nav-right{
+	font-size: 17pt;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-right a{
+	margin-right: 2pc;
+}
+
+.profile-image{
+	width: 2pc;
+	height: 2pc;
+}
+
+.profile-image img{
+	width: 100%;
+}
+
+#profile{
+	margin: 0 1pc 0 0;
+}
+
+
+header{
+	width: 98vw;
+	height: 30pc;
+	background-image: url('https://thumbs.gfycat.com/DearSmugHartebeest-size_restricted.gif');
+	background-size: 55pc;
+	background-position: right;
+}
+
+.left-side{
+	background: black;
+	width: 30pc;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-ittitle{
+	width: 80%;
+	height: 40%;
+/*	background: red; */
+
+	margin-top: 1pc;
+}
+
+.header-ittitle h1{
+	font-family: 'Fredoka';
+	font-size: 30pt;
+}
+.header-itp{
+	width: 80%;
+}
+
+.left-side-container{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.movie-rate{
+	width: 80%;
+	
+	margin-top: -2pc;
+}
+
+.header-play-btn{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+}
+
+.header-play-btn button{
+	border: solid white 1px;
+	background-color: black;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1pc 0pc 1pc 0pc;
+	cursor: pointer;
+	transition: 1s;
+	font-weight: bolder;
+}
+
+.header-play-btn button:hover{
+	border: none;
+	background-color: red;
+	transition: 0.1s;
+	color: black;
+}
+
+
+.carousel-block-cover{
+	width: 100%;
+	height: 12pc;
+	background: darkred;
+	background-position: center;
+	background-size: 100%;
+}
+
+.carousel-block-cover:hover{
+	transition-delay: 0.5s;
+	background-size: 110%;
+}
+
+.carousel-block-name{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 1pc;
+}
+
+.carousel-block{
+	width: 25pc;
+	cursor: pointer;
+}
+
+#movie1{
+	background-image: url('img/movie1.jpg');
+	transition: 1s;
+}
+
+#movie1:hover{
+	background-image: url('https://64.media.tumblr.com/9726583025ace6ce56e7d9c4d397c084/tumblr_n57w92km631ri5qp0o4_250.gifv');
+	transition-delay: 0.5s;
+}
+
+#movie2{
+	background-image: url('img/movie2.jpg');
+	transition: 1s;
+}
+
+#movie2:hover{
+	background-image: url('https://64.media.tumblr.com/1261c26b0cc4ec2c0518f8c0aef50245/f7b18a5ba496f63d-c7/s540x810/d5a5580c1ca1c9b68199c8b3ced82ee95fdbf9db.gifv');
+	transition-delay: 0.5s;
+	background-position: top;
+}
+
+#movie3{
+	background-image: url('img/movie3.jpg');
+	transition: 1s;
+}
+
+#movie3:hover{
+	background-image: url('https://64.media.tumblr.com/6d259fe372904d7d2eec035fd0a6e33b/tumblr_p1tz9rkpBD1sek4xio8_500.gifv');
+	transition-delay: 0.5s;
+	background-position: top;
+}
+
+#movie4{
+	background-image: url('img/movie4.jpg');
+	transition: 1s;
+}
+
+#movie4:hover{
+	background-image: url('https://66.media.tumblr.com/307878f88cdb8eb2c2d35665b234dce2/tumblr_oecpjpwUW01sjigj5o8_500.gif');
+	transition-delay: 0.5s;
+	background-position: top;
+}
+
+#movie5{
+	background-image: url('img/movie5.jpg');
+	transition: 1s;
+}
+
+#movie5:hover{
+	background-image: url('http://4.bp.blogspot.com/-VbGD9-t-l3g/VacbYYo_O5I/AAAAAAAAOfk/iQl0MqDuoQY/s640/tumblr_npi0jrbMbH1qdhizao1_500.gif');
+	transition-delay: 0.5s;
+	background-position: top;
+}
+
+#movie6{
+	background-image: url('img/movie6.jpg');
+	transition: 1s;
+}
+
+#movie6:hover{
+	background-image: url('https://thumbs.gfycat.com/HighDependableEsok-max-1mb.gif');
+	transition-delay: 0.5s;
+	background-position: top;
+}
